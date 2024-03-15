@@ -8,7 +8,7 @@ function toggleDarkMode() {
     let lightModeCss = {
         backgroundColor: `rgba(255, 255, 255, 1)`,
         cursor: `initial`,
-        display: `contents`,
+        display: `contents`
     };
     Object.assign(document.querySelector(`.lightMode`).style, lightModeCss);
 
@@ -34,4 +34,4 @@ function toggleDarkMode() {
 
     // CHANGES THE BACKGROUND COLOR OF THE PARENT CONTAINER WHICH CAN ALSO SUBSTITUTED WITH THE BODY WHEN USING IN REAL PROJECTS.
     document.querySelector(`.themeChangerContainer`).style.backgroundColor = `rgba(32, 32, 32, 1)`;
-}
+};
