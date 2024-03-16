@@ -44,7 +44,7 @@ function toggleLightMode() {
         borderRadius: `100px`,
         backgroundColor: `rgba(0, 41, 255, 1)`,
         border: `none`,
-        margin: `6px 33px 6px 8px`
+        margin: `6px 32px 6px 8px`
     };
     Object.assign(document.querySelector(`.lightMode`).style, lightModeCss);
 
