@@ -12,7 +12,7 @@ function toggleDarkMode() {
     };
     Object.assign(document.querySelector(`.lightMode`).style, lightModeCss);
 
-    document.querySelector(`.lightMode > svg`).style.marginLeft = `19px`
+    document.querySelector(`.lightMode > svg`).style.marginLeft = `19px`;
 
     // CHANGES THE LIGHTMODE AND DARKMODE BUTTONS CONTAINER
     document.querySelector(`.themeChangerButtonsContainer`)
@@ -34,6 +34,8 @@ function toggleDarkMode() {
         cursor: `pointer`
     };
     Object.assign(document.querySelector(`.darkMode`).style, darkModeCss);
+
+    document.querySelector(`.darkMode > svg`).style.marginRight = ``;
 
     // CHANGES THE COLOR OF THE MOON SVG
     document.querySelector(`.darkModeSvgPath`).style.fill = `rgba(255, 255, 255, 1)`;
@@ -58,6 +60,8 @@ function toggleLightMode() {
         cursor: `initial`,
     };
     Object.assign(document.querySelector(`.darkMode`).style, darkModeCss);
+
+    document.querySelector(`.darkMode > svg`).style.marginRight = `21px`;
 
     // CHANGES THE LIGHT MODE BUTTON
     document.querySelector(`.lightMode`);
