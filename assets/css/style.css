@@ -20,33 +20,29 @@
 .themeChangerButtonsContainer{
     display: flex;
     height: 62px;
-    width: 132px;
+    width: 134px;
     border-radius: 143px;
     background-color: rgba(255, 255, 255, 1);
-    align-items: center;
 }
 
 .lightMode{
-    min-width: 50px;
-    min-height: 50px;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
     background-color: rgba(0, 41, 255, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
-    margin: 6px 32px 6px 6px;
+    margin: 6px 32px 6px 8px;
     cursor: pointer;
 }
 
+.lightModeSvg{
+    margin: 13px;
+}
+
 .darkMode{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    margin: 19px 19px 19px 0px;
     display: contents;
+}
+
+.darkModeSvg{
+    margin: 19px 20px 19px 0px;
 }
