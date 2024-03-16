@@ -26,7 +26,7 @@ function toggleDarkMode() {
 
     document.querySelector(`.darkModeSvg`).style.margin = `13px`;
 
-    document.querySelector(`.darkModeSvgPath`).style.fill = `rgba(255, 255, 255, 1)`;
+    document.querySelector(`.darkModeSvgPath`).style.stroke = `rgba(255, 255, 255, 1)`;
 
     document.querySelector(`.themeChangerContainer`).style.backgroundColor = `rgba(32, 32, 32, 1)`;
 
@@ -56,7 +56,7 @@ function toggleLightMode() {
 
     document.querySelector(`.themeChangerButtonsContainer`).style.backgroundColor = `rgba(255, 255, 255, 1)`;
 
-    document.querySelector(`.darkModeSvgPath`).style.fill = `#bababa`;
+    document.querySelector(`.darkModeSvgPath`).style.stroke = `#bababa`;
 
     document.querySelector(`.themeChangerContainer`).style.backgroundColor = `rgba(226, 224, 224, 1)`;
 
