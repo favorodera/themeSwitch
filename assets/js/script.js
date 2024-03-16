@@ -61,7 +61,9 @@ function toggleLightMode() {
     let lightModeCss = {
         backgroundColor: `rgba(0, 41, 255, 1)`,
         cursor: `pointer`,
-        display: `block`,
+        display: `flex`,
+        justifyContent: `center`,
+        alignItems: `center`,
         margin: `6px 32px 6px 6px`,
     };
     Object.assign(document.querySelector(`.lightMode`).style, lightModeCss);
