@@ -61,7 +61,7 @@ function toggleLightMode() {
     };
     Object.assign(document.querySelector(`.darkMode`).style, darkModeCss);
 
-    document.querySelector(`.darkMode > svg`).style.marginRight = `19px`;
+    document.querySelector(`.darkMode > svg`).style.marginRight = `21px`;
 
     // CHANGES THE LIGHT MODE BUTTON
     document.querySelector(`.lightMode`);
