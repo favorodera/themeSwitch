@@ -8,9 +8,11 @@ function toggleDarkMode() {
     let lightModeCss = {
         backgroundColor: `rgba(255, 255, 255, 1)`,
         cursor: `initial`,
-        display: `contents`
+        display: `contents`,
     };
     Object.assign(document.querySelector(`.lightMode`).style, lightModeCss);
+
+    document.querySelector(`.lightMode > svg`).style.marginLeft = `19px`
 
     // CHANGES THE LIGHTMODE AND DARKMODE BUTTONS CONTAINER
     document.querySelector(`.themeChangerButtonsContainer`)
@@ -18,7 +20,6 @@ function toggleDarkMode() {
         backgroundColor: `black`,
         justifyContent: `space-evenly`,
         backgroundColor: `rgba(44, 44, 44, 1)`,
-        paddingLeft: `21px`
     };
     Object.assign(document.querySelector(`.themeChangerButtonsContainer`).style, themeChangerButtonsContainerCss);
 
@@ -69,6 +70,8 @@ function toggleLightMode() {
         margin: `6px 32px 6px 6px`,
     };
     Object.assign(document.querySelector(`.lightMode`).style, lightModeCss);
+
+    document.querySelector(`.lightMode > svg`).style.marginLeft = ``;
 
     // CHANGES THE LIGHTMODE AND DARKMODE BUTTONS CONTAINER
     document.querySelector(`.themeChangerButtonsContainer`)
