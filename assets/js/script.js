@@ -26,7 +26,9 @@ function toggleDarkMode() {
     document.querySelector(`.darkMode`).style
     let darkModeCss = {
         backgroundColor: `rgba(0, 41, 255, 1)`,
-        display: `block`,
+        display: `flex`,
+        justifyContent: `center`,
+        alignItems: `center`,
         margin: `6px 6px 6px 33px`,
         cursor: `pointer`
     };
