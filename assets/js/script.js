@@ -50,7 +50,11 @@ function toggleLightMode() {
 
     document.querySelector(`.lightModeSvg`).style.margin = `13px`
 
-    document.querySelector(`.darkMode`).style.display = `contents`;
+    let darkModeCss = {
+        cursor: ``,
+        display: `contents`
+    };
+    Object.assign(document.querySelector(`.darkMode`).style, darkModeCss);
 
     document.querySelector(`.darkModeSvg`).style.margin = `19px 20px 19px 0px`;
 
